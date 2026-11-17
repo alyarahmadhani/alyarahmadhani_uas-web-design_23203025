@@ -1,0 +1,672 @@
+/* font */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+/* Background Navbar */
+.navbar-daebak {
+    background-color: #56020a;
+}
+
+/* Tulisan Brand */
+.navbar-daebak .navbar-brand {
+    color: white;
+}
+
+/* Tulisan Menu */
+.navbar-daebak .nav-link {
+    color: white;
+}
+.judul-home {
+    font-size: 42px;
+    font-weight: 800;
+    color: #070933;
+    text-align: center;
+    margin-bottom: 40px;
+}
+/* gambar di card 1, isinya buat card 1 all in */
+
+.card-img-custom {
+    width: 580px;
+    height: 580px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.sapaan {
+    color: #D9A441;
+    font-size: 20px;
+}
+
+.judul-card {
+    font-size: 42px;
+    font-weight: bold;
+    color: #040530;
+}
+
+.deskripsi-card {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #000000;
+}
+
+
+    .card-title {
+        font-size: 20px;
+        font-weight: bold;
+        color: #040530;
+        text-align: center;
+    }
+    .card-text {
+        font-size: 12px;
+        color: #000000;
+        text-align: center;
+    }
+    .card-img-top1 {
+        width: 150px;
+        height: 150px;
+        align-self: center;
+       
+    }
+/* COPYRIGHT */
+.footer-bottom {
+    background-color: #56020a;
+    text-align: center;
+    color: white;
+    border-top: 1px solid #526078;
+    margin-top: 40px;
+    padding: 20px 10px 5px;
+}
+
+/* RESPONSIVE HP */
+@media (max-width: 767px) {
+    .footer-daebak {
+        padding-top: 40px;
+    }
+
+}
+
+/* untuk bagian halaman menu */
+
+/* MENU SECTION */
+.menu-section {
+    /* background-color: #feebf2; */
+    padding: 70px 0;
+    color: #021d47;
+}
+
+/* HEADING */
+.menu-heading {
+    margin-bottom: 55px;
+}
+
+.menu-subtitle {
+    color: #efa91e;
+    font-weight: 800;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+.menu-heading h1 {
+    font-size: 45px;
+    font-weight: 900;
+    color: #061f44;
+}
+
+.menu-heading p {
+    font-size: 17px;
+}
+
+/* CATEGORY TITLE */
+.category-title h2 {
+    display: inline-block;
+    background-color: #56020a;
+    color: white;
+    padding: 12px 55px;
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: 800;
+    box-shadow: 0 6px 0 #e9b64f;
+}
+
+.category-title p {
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+/* MENU CARD */
+.menu-card {
+    border: none;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: #fffdf8;
+    box-shadow: 0 7px 15px rgba(38, 59, 91, 0.12);
+    transition: 0.3s ease;
+}
+
+.menu-card:hover {
+    transform: translateY(-9px) rotate(-1deg);
+    box-shadow: 0 14px 25px rgba(38, 59, 91, 0.2);
+}
+
+.menu-card .card-img-top {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    padding: 8px;
+    border-radius: 25px;
+}
+
+.menu-card .card-body {
+    padding: 12px 10px 18px;
+}
+
+.menu-card .card-title {
+    font-size: 21px;
+    font-weight: 800;
+    color: #263b5b;
+    margin-bottom: 10px;
+}
+
+/* PRICE */
+.menu-price {
+    display: inline-block;
+    background-color: #56020a;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 7px 23px;
+    border-radius: 30px;
+}
+
+/* SNACKS */
+.snacks-section {
+    /* background-color: #ffedcf; */
+    padding: 35px 25px;
+    border-radius: 35px;
+}
+
+/* DRINKS */
+.drinks-section {
+    /* background-color: #e9eef9; */
+    padding: 35px 25px;
+    border-radius: 35px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 767px) {
+    .menu-heading h1 {
+        font-size: 32px;
+    }
+
+    .category-title h2 {
+        font-size: 24px;
+        padding: 10px 35px;
+    }
+
+    .menu-card .card-img-top {
+        height: 230px;
+    }
+}
+
+
+/* ==========================
+   LOCATION
+========================== */
+
+.location-section {
+    background-color: #fcfcfc;
+    padding: 80px 0;
+    color: #56020a;
+}
+
+/* HEADING */
+
+.location-heading {
+    margin-bottom: 50px;
+}
+
+.location-label {
+    display: inline-block;
+    background-color: #56020a;
+    color: white;
+    padding: 9px 35px;
+    border-radius: 40px;
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    box-shadow: 0 5px 0 #f6bb38;
+}
+
+.location-heading h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 18px;
+    color: #0c192d;
+}
+
+.location-heading p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+/* STORE PHOTO */
+
+.store-photo {
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 0 10px 25px rgba(38, 59, 91, 0.15);
+    transform: rotate(-2deg);
+    transition: 0.3s ease;
+}
+
+.store-photo:hover {
+    transform: rotate(0deg) scale(1.02);
+}
+
+.store-photo img {
+    width: 100%;
+    height: 440px;
+    object-fit: cover;
+    border-radius: 23px;
+}
+
+
+/* LOCATION INFO */
+
+.location-info {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 8px 20px rgba(38, 59, 91, 0.12);
+}
+
+.info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.info-icon {
+    min-width: 65px;
+    height: 65px;
+    background-color: #fae9c6;
+    color: #56020a;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.info-item h4 {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.info-item p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+/* GOOGLE MAPS BUTTON */
+
+.btn-maps {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: #56020a;
+    color: #ffffff;
+    padding: 15px 25px;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 800;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.btn-maps:hover {
+    background-color: #ffffff;
+    color: #56020a;
+    transform: translateY(-4px);
+}
+
+
+/* OTHER BRANCHES */
+
+.other-branches {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 30px;
+}
+
+.other-branches h3 {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+
+/* BRANCH CARD */
+
+.branch-card {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: #fffdf8;
+    padding: 17px 12px;
+    border-radius: 22px;
+    box-shadow: 0 5px 12px rgba(38, 59, 91, 0.10);
+    transition: 0.3s ease;
+}
+
+.branch-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 18px rgba(38, 59, 91, 0.16);
+}
+
+.branch-icon {
+    min-width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fae9c6;
+    color: #56020a;
+    border-radius: 15px;
+    font-size: 25px;
+}
+
+.branch-detail {
+    flex: 1;
+}
+
+.branch-detail h4 {
+    font-size: 17px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.branch-detail p {
+    font-size: 12px;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.branch-link {
+    min-width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #56020a;
+    color: #ffffff;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.branch-link:hover {
+    background-color: #56020a;
+    color: #ffffff;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 991px) {
+
+    .store-photo img {
+        height: 350px;
+    }
+
+    .location-heading h1 {
+        font-size: 38px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .location-heading h1 {
+        font-size: 32px;
+    }
+
+    .location-info {
+        padding: 22px;
+    }
+
+    .store-photo img {
+        height: 280px;
+    }
+
+    .info-item {
+        margin-bottom: 15px;
+    }
+
+}
+
+/* ==========================
+   MERCHANDISE SECTION
+========================== */
+
+.merch-section {
+    background-color: #FFFFFF;
+    color: #56020a;
+    padding: 80px 0;
+}
+
+
+/* HEADING */
+
+.merch-heading {
+    margin-bottom: 55px;
+}
+
+.merch-label {
+    display: inline-block;
+    background-color: #56020a;
+    color: #FFFFFF;
+    padding: 10px 35px;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    box-shadow: 0 5px 0 #ffbd36;
+}
+
+.merch-heading h1 {
+    font-size: 45px;
+    font-weight: 900;
+    margin-top: 20px;
+    color: #010537;
+}
+
+.merch-heading p {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+/* ABOUT MERCHANDISE */
+
+.about-merch {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 30px;
+    box-shadow: 0 8px 22px rgba(86, 2, 10, 0.10);
+}
+
+
+/* FOTO ABOUT */
+
+.about-merch-img {
+    overflow: hidden;
+    border-radius: 25px;
+    background-color: #f8eee8;
+    padding: 8px;
+    transform: rotate(-1deg);
+    transition: 0.3s ease;
+}
+
+.about-merch-img:hover {
+    transform: rotate(0deg) scale(1.02);
+}
+
+.about-merch-img img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+/* DESKRIPSI ABOUT */
+
+.about-merch-text {
+    padding: 15px;
+}
+
+.about-merch-text h2 {
+    display: inline-block;
+    background-color: #56020a;
+    color: #FFFFFF;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 23px;
+    font-weight: 800;
+    margin-bottom: 22px;
+}
+
+.about-merch-text p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #3d2929;
+    text-align: justify;
+}
+
+.merch-highlight {
+    display: inline-block;
+    color: #56020a;
+    font-weight: 800;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+
+/* OUR PRODUCTS */
+
+.products-section {
+    margin-top: 60px;
+}
+
+.products-heading h2 {
+    display: inline-block;
+    background-color: #56020a;
+    color: #FFFFFF;
+    padding: 12px 45px;
+    border-radius: 40px;
+    font-size: 30px;
+    font-weight: 900;
+    box-shadow: 0 5px 0 #ffbd36;
+}
+
+.products-heading p {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/* MERCH CARD */
+
+.merch-card {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 7px 18px rgba(86, 2, 10, 0.12);
+    transition: 0.3s ease;
+}
+
+.merch-card:hover {
+    transform: translateY(-9px) rotate(-1deg);
+    box-shadow: 0 14px 25px rgba(86, 2, 10, 0.18);
+}
+
+.merch-card .card-img-top {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.merch-card .card-body {
+    padding: 12px 10px 20px;
+}
+
+.merch-card .card-title {
+    color: #56020a;
+    font-size: 21px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+
+/* PRICE */
+
+.merch-price {
+    display: inline-block;
+    background-color: #56020a;
+    color: #ffffff;
+    padding: 8px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 991px) {
+
+    .merch-heading h1 {
+        font-size: 36px;
+    }
+
+    .about-merch-img img {
+        height: 280px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .merch-heading h1 {
+        font-size: 30px;
+    }
+
+    .about-merch {
+        padding: 15px;
+    }
+
+    .about-merch-text {
+        padding: 10px;
+    }
+
+    .about-merch-text h2 {
+        font-size: 20px;
+    }
+
+    .merch-card .card-img-top {
+        height: 240px;
+    }
+
+}
